@@ -1,8 +1,16 @@
+import Menu from "./Menu";
+import Logo from "./logo";
 import "../styles/global.css";
-import Heading from "./Heading";
+import CountDown from "./CountDown";
 
 function App() {
-  return <Heading />;
+  return (
+    <>
+      <Logo />
+      <Menu />
+      <CountDown />
+    </>
+  );
 }
 
 export default App;
