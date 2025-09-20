@@ -2,4 +2,7 @@
 
 body {
   background: #0a0f1a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

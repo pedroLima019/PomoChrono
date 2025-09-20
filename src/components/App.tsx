@@ -1,8 +1,9 @@
 import Menu from "./Menu";
 import Logo from "./logo";
 import CountDown from "./CountDown";
-import Form from "./form";
+import Form from "./Form";
 import "../styles/global.css";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Menu />
       <CountDown />
       <Form />
+      <Footer />
     </>
   );
 }
