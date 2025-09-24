@@ -6,7 +6,7 @@ import { PlayCircleIcon } from "lucide-react";
 const Form = () => {
   return (
     <form
-      className=" flex flex-col gap-5 items-center justify-center w-full p-2 "
+      className=" flex flex-col gap-5 items-center justify-center w-full p-2 text-black "
       action=""
     >
       <div className="flex flex-col justify-center items-center p-2 ">
@@ -18,8 +18,10 @@ const Form = () => {
           placeholder="Digite sua tarefa"
         />
       </div>
-      <div className=" text-white text-center  text-sm ">
-        <span className="font-semibold">Lorem ipsum dolor sit amet.</span>s
+      <div className="  text-center  text-sm ">
+        <span className="font-semibold text-black dark:text-white">
+          Lorem ipsum dolor sit amet.
+        </span>
       </div>
       <Cycles />
       <DefaultButton icon={<PlayCircleIcon />} />

@@ -5,7 +5,7 @@ const Footer = () => {
         href="http://"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-center  text-white text-sm "
+        className="text-center  text-black text-sm border-b dark:text-white"
       >
         Entenda como funciona a técnica pomodoro
       </a>
